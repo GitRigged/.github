@@ -1,0 +1,23 @@
+
+- name: wubba-lubba
+  color: 0e8a16
+  description: Fun stuff
+- name: schwifty
+  color: 1f6feb
+  description: Experimental
+- name: pickle
+  color: f9d342
+  description: Fix-it-in-prod energy
+- name: meeseeks
+  color: 7e57c2
+  description: Quick tasks
+- name: portal
+  color: 39d353
+  description: Cross-repo or infra
+- name: rigged
+  color: d73a4a
+  description: Things beyond mortal control
+- name: bug
+  color: d73a4a
+- name: enhancement
+  color: a2eeef

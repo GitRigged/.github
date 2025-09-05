@@ -1,0 +1,27 @@
+
+name: 🌀 Rigged CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  rigged:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Print the truth
+        run: echo "This build was rigged from the start 🌀"
+
+      - name: Multiverse matrix (kinda)
+        run: |
+          echo "::group::Timelines"
+          for t in C137 D716 Z9; do
+            echo "Evaluating timeline $t ... probably doomed."
+          done
+          echo "::endgroup::"
